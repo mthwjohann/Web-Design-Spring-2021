@@ -1,0 +1,23 @@
+h1 {
+    color: #008000;
+    background-color: #0000ff;
+    font-size: 30px;
+}
+ul {
+    color: #ffff00;
+    background-color: #000000;
+    text-align: center;
+}
+p {
+    color: #ff0000;
+    font-size: large;
+    font-family: inherit;
+}
+
+#head {
+    color: #a52a2a;
+}
+
+ul, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
