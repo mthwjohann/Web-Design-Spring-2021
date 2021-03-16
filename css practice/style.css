@@ -1,12 +1,11 @@
 h1 {
     color: #008000;
-    background-color: #0000ff;
+    background-color: #00ffff;
     font-size: 30px;
 }
 ul {
-    color: #ffff00;
     background-color: #000000;
-    text-align: center;
+    text-align: left;
 }
 p {
     color: #ff0000;
@@ -17,6 +16,49 @@ p {
 #head {
     color: #a52a2a;
 }
+
+#firstList {
+    background-color: #ffff00;
+}
+
+#secondList {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+#thirdList {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+#superheroList {
+    background-color: #808080;
+    color: #000000;
+}
+
+#firstList, #secondList, #thirdList {
+    font-size: 20px;
+}
+
+#quarantineActivities {
+    color: #8b0000;
+    background-color: #98fb98;
+}
+
+.quarantine {
+    background-color: #00bfff;
+    border: 5px solid #000000;
+    border: 5px double;
+}
+
+body {
+    background-color: #7fff00;
+}
+
+body {
+    background-image: url("images/watercolor.jpg");
+}
+
 
 ul, p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
