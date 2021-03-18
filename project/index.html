@@ -3,31 +3,37 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title> Cat Website </title>
+
+        <link href="style.css" rel="stylesheet" text="text/css">
+
+        <title> Bowling Website </title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Start coding from here -->
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
         <!-- 1. User Link Section -->
-        <ul>
+        <ul id="user-links">
             <!-- User Image -->
-            <li>
+            <li class="user-links-li">
                 <a href="index.html">
                     <img src="images/user.png" width="28" height="28">
-                    <p> Mathew </p>
+                    <p class="top-left-items"> Mathew </p>
                 </a>
             </li>
             <!-- Cash Image -->
-            <li>
+            <li class="user-links-li">
                 <img src="images/cash.png" width="40" height="28">
-                <p> $100 </p>
+                <p class="top-left-items"> $100 </p>
             </li>
             <!-- Cart Image -->
-            <li>
+            <li class="user-links-li">
                 <a href="index.html">
                     <img src="images/cart.jpg" width="28" height="28">
-                    <p> Cart(0) </p>
+                    <p class="top-left-items"> Cart(0) </p>
                 </a>
             </li>
         </ul>
@@ -36,22 +42,54 @@
         <!-- 2. Center Logo Section -->
         <header>
             <a>
-                <img src="images/logo.png" width="300" height="80">
+                <img src="images/logo.png" height="50">
             </a>
         </header>
 
         <!-- 3. Navigation Bar   -->
         <nav>
             <hr width="50%"/> <!-- This adds a line -->
-            <a href="index.html"> Home </a>
+            <!-- CHANGE CURRENT BASED ON THE HTML THAT YOU ARE IN -->
+            <a class="current" href="index.html"> Home </a>
             <a href="about.html"> About </a>
             <a href="products.html"> Products </a>
             <a href="contact.html"> Contact </a>
         </nav>
 
+        <br>
+        <br>
+
         <!-- 4. Main Body -->
+        <main>
+            <figure id="imageMain">
+              <img src="img/doggo.jpg" alt = "Picture of Dog" />
+            </figure>
+            
+            <div>
+              Hello! <br/>
+              <p> Thank you for visiting my online shopping website. </p>
+              <p> I am a Software Engineer working for DigitalNEST </p>
+              <p> Feel Free to contact me! </p>
+              <br/> <br/>
+            </div>
+          </main>      
 
         <!-- 5. Footer -->
+
+        <footer>
+            <hr>
+            <p>
+                Intro To Web Design 2021 © Johann <br>
+                <strong> Disclaimer: </strong>
+                The information in this webpage is fictitious. <br>
+                It is used for academic purposes only.
+            </p>
+            <img src="images/logo.png" height="50">
+        </footer>
+
+        <br>
+        <br>
+        <br>
 
         <!-- Code above from here -->
     </body>

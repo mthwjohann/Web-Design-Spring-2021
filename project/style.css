@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: rgb(164, 232, 232);
+}
+
+/* Makes everything to the center
+   Except for the user link section */
+
+header, nav, main, footer {
+    text-align: center;
+}
+
+#user-links {
+    /* DON'T FORGET TO DELETE */
+    border: 1px solid;
+
+    /* Takes off the bullet points */
+    list-style-type: none;
+
+    /* Moves list to the right */
+    text-align: right;
+
+    /* Changes font to Rubik */
+    font-family: 'Rubik', sans-serif;
+
+    /* Adds space between logo and user links */
+    margin-bottom: 50px;
+}
+
+.top-left-items {
+    /* puts logo and link name on the same line */
+    display: inline;
+
+    /* Changes paragraph position */
+    position: relative;
+    left: 5px;
+    bottom: 6px;
+
+    color: #ff0000;
+}
+
+.user-links-li {
+    /* Puts all lists in one line */
+    display: inline;
+
+    /* Fix spacing */
+    margin-right: 30px;
+}
+
+/* Remove underline of all anchor tags */
+a {
+    text-decoration: none;
+}
+
+/* 2. Handling navigation bar */
+nav a {
+    color: rgb(222, 240, 247);
+    font-size: 2.7em;
+    padding: 20px;
+}
+
+/* Styling changes if you hover over nav tabs */
+nav a:hover {
+    color: rgb(57, 67, 183);
+    border-bottom: 2px rgb(57, 67, 183) solid;
+    font-size: 4em;
+}
+
+.current {
+    color: #ff0000;
+}
