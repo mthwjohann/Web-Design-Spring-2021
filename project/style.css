@@ -54,15 +54,15 @@ a {
 
 /* 2. Handling navigation bar */
 nav a {
-    color: rgb(222, 240, 247);
+    color: #ffffff;
     font-size: 2.7em;
     padding: 20px;
 }
 
 /* Styling changes if you hover over nav tabs */
 nav a:hover {
-    color: rgb(57, 67, 183);
-    border-bottom: 2px rgb(57, 67, 183) solid;
+    color: #6495ed;
+    border-bottom: 2px #6495ed solid;
     font-size: 4em;
 }
 
